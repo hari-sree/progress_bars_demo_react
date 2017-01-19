@@ -12,8 +12,8 @@ Jest for testing
 Axios for ajax calls
 
 ##Notes
-All UI Components except are dumb, which gets all its data via props. ProgressBarControl component acts as the container components 
-which encapsulates all child components and manages the state (this can be useful to later move the state transitions to a library like redux).
+All UI Components except ProgressBarControl are dumb, which gets all its data via props and just renders the ui. ProgressBarControl component acts as the container component 
+which encapsulates all child components and manages the state (this can be useful to later move the state management and transitions to a library like redux).
 
 ##Screenshot
 
