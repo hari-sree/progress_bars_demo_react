@@ -1,0 +1,23 @@
+.barContainer{
+  height:50px;
+  line-height:50px;
+  width: 100%;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-style:solid;
+  border-color: gray;
+  border-width: thin;
+}
+.bar{
+  height:100%;
+}
+.progressLabel{
+  display: inline-block;
+  vertical-align: middle;
+}
+.overLimit{
+  background-color: red;
+}
+.withinLimit{
+  background-color: #AFD7E6;
+}

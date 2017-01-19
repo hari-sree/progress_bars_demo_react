@@ -1,0 +1,13 @@
+.progress-bar-container{
+  width:40%;
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+  margin:auto;
+  padding: 20px;
+  text-align: center;
+}
+.progress-bar-container button{
+  margin-left: 1em;
+  margin-right: 1em;
+}
