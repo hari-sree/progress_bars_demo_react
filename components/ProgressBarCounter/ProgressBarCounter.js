@@ -9,8 +9,8 @@ export default class ProgressBarCounter extends React.Component{
   render(){
     var counterLabel = this.props.counterValue >= 0 ? '+'+this.props.counterValue : this.props.counterValue;
     return(
-      <div className='counterContainer'>
-          <button className='barCounter' onClick= {this.onClick.bind(this)} >
+      <div className="counterContainer">
+          <button className="barCounter" onClick= {this.onClick.bind(this)} >
             {counterLabel}
           </button>
       </div>

@@ -48,8 +48,8 @@ export default class ProgressBarsControl extends React.Component{
     });
 
     return(
-      <div className='progress-bar-container'>
-        <h2 className='controlHeader'>{HEADER_MESSAGE}</h2>
+      <div className="progress-bar-container">
+        <h2 className="controlHeader">{HEADER_MESSAGE}</h2>
         {barData.bars.map((barValue) => {
           return (
             <ProgressBar limit={barData.limit} value={barValue}/>

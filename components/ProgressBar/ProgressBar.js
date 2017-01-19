@@ -18,9 +18,9 @@ export default class ProgressBar extends React.Component{
     );
 
     return(
-      <div className='barContainer'>
+      <div className="barContainer">
         <div className={barClasses} style={{width: barWidth + '%'}}>
-          <span className='progressLabel'>{Math.round(progressPercentage)}%</span>
+          <span className="progressLabel">{Math.round(progressPercentage)}%</span>
         </div>
       </div>
     );
