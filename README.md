@@ -5,7 +5,7 @@
 
 React Js for ui framework
 
-Webpack for bundling
+Webpack for bundling assets : Javascript/ CSS
 
 Jest for testing
 
