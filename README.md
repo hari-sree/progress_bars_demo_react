@@ -11,6 +11,8 @@ Jest for testing
 
 Axios for ajax calls
 
+Eslint for linting
+
 ##Instructions to build and run the demo
 
 npm install
@@ -18,6 +20,9 @@ npm install
 npm build
 
 npm start
+
+###To run lint:
+npm run lint
 
 ##Notes
 All UI Components except ProgressBarControl are dumb, which gets all its data via props and just renders the ui. ProgressBarControl component acts as the container component 
